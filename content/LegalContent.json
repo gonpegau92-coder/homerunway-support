@@ -14,14 +14,14 @@
           {
             "title": "Datos y usos",
             "paragraphs": [
-              "Los datos que introduces incluyen nombres de hogares, miembros y mascotas, sus tipos y necesidades configuradas, ubicaciones, productos, lotes, cantidades, caducidades, consumo, objetivos, equipos, mantenimiento, valoraciones, comentarios y fotos opcionales. Se usan para organizar reservas, calcular estimaciones, mostrar estadísticas y programar avisos. No necesitas una cuenta propia de HomeRunway. No añadas información médica ni otros datos sensibles; usa alias cuando sea suficiente.",
+              "Los datos que introduces incluyen nombres de hogares, miembros y mascotas, sus tipos y necesidades configuradas, ubicaciones, productos, lotes, cantidades, caducidades, consumo, objetivos, equipos, mantenimiento, valoraciones, comentarios y fotos opcionales de productos y equipos. Se usan para organizar reservas, calcular estimaciones, mostrar estadísticas y programar avisos. No necesitas una cuenta propia de HomeRunway. No añadas información médica ni otros datos sensibles; usa alias cuando sea suficiente.",
               "La app no incorpora publicidad, seguimiento ni analítica externa. Las estadísticas se calculan a partir de los movimientos del hogar; no son telemetría enviada al titular."
             ]
           },
           {
             "title": "Dispositivo e iCloud",
             "paragraphs": [
-              "Los registros se guardan en el dispositivo mediante SwiftData. Las preferencias y avisos son propios de cada dispositivo. Las copias de seguridad del sistema pueden conservar datos según tu configuración de Apple.",
+              "Los registros se guardan en el dispositivo mediante SwiftData. Las preferencias, incluido el idioma de la app, y los avisos son propios de cada dispositivo. La elección de idioma y la bienvenida no pertenecen al hogar ni se sincronizan mediante CloudKit. Las copias de seguridad del sistema pueden conservar datos según tu configuración de Apple.",
               "iCloud es opcional. Al activarlo, documentos del hogar, fotos e historial de operaciones se envían a CloudKit de Apple, en bases privadas o compartidas. Se guardan identificadores técnicos del hogar, la cuenta iCloud y las operaciones para sincronizar y controlar el acceso. Se aplican las condiciones y política de privacidad de Apple. No se promete cifrado de extremo a extremo ni acceso técnicamente imposible del desarrollador."
             ]
           },
@@ -29,7 +29,7 @@
             "title": "Hogares compartidos y fotos",
             "paragraphs": [
               "Las personas invitadas al hogar pueden consultar sus datos, incluidos comentarios, valoraciones y fotos; quienes tienen permiso de escritura pueden modificarlos. Los miembros registrados para los cálculos no son lo mismo que los participantes de iCloud. Comparte solo datos que tengas derecho a facilitar e informa a las personas afectadas.",
-              "El selector de Apple entrega las imágenes que eliges. La app crea una copia JPEG reducida que omite los metadatos personales de origen; el contenido visible puede seguir mostrando personas u otros datos personales. No modifica ni elimina la foto original de tu fototeca."
+              "El selector de Apple entrega las imágenes que eliges. Para productos y equipos, la app corrige la orientación y crea una copia JPEG reducida que omite los metadatos personales de origen; el contenido visible puede seguir mostrando personas u otros datos personales. No modifica ni elimina la foto original de tu fototeca."
             ]
           },
           {
@@ -102,7 +102,7 @@
           {
             "title": "¿Se comparte mi comentario o foto?",
             "paragraphs": [
-              "Sí, pertenece al hogar y puede verlo quien tenga acceso al hogar compartido. Los participantes de iCloud y los miembros usados en cálculos son conceptos distintos."
+              "Sí. Los comentarios y las fotos de productos y equipos pertenecen al hogar y puede verlos quien tenga acceso al hogar compartido. Los participantes de iCloud y los miembros usados en cálculos son conceptos distintos."
             ]
           },
           {
@@ -115,6 +115,12 @@
             "title": "¿Cómo desactivo los avisos?",
             "paragraphs": [
               "En Ajustes → Notificaciones puedes desactivar los avisos o sus categorías. Si iOS denegó el permiso, cambia el permiso en los ajustes del sistema. Las previsualizaciones de la pantalla bloqueada también se controlan en iOS."
+            ]
+          },
+          {
+            "title": "¿Cómo cambio el idioma?",
+            "paragraphs": [
+              "En Ajustes → Idioma puedes elegir Automático (idioma del sistema), Español o English. La bienvenida permite elegirlo antes de crear el primer hogar. La preferencia se guarda solo en este dispositivo; los nombres y textos que hayas escrito no se traducen."
             ]
           }
         ]
@@ -186,14 +192,14 @@
           {
             "title": "Data and purposes",
             "paragraphs": [
-              "The information you enter includes household, member and pet names, their types and configured needs, locations, products, batches, quantities, expiry dates, consumption, targets, equipment, maintenance, ratings, comments and optional photos. It is used to organise supplies, calculate estimates, show statistics and schedule reminders. You do not need a separate HomeRunway account. Do not add medical or other sensitive information; use aliases where sufficient.",
+              "The information you enter includes household, member and pet names, their types and configured needs, locations, products, batches, quantities, expiry dates, consumption, targets, equipment, maintenance, ratings, comments and optional product and equipment photos. It is used to organise supplies, calculate estimates, show statistics and schedule reminders. You do not need a separate HomeRunway account. Do not add medical or other sensitive information; use aliases where sufficient.",
               "The app includes no advertising, tracking or external analytics. Statistics are calculated from household movements; they are not telemetry sent to the owner."
             ]
           },
           {
             "title": "Device and iCloud",
             "paragraphs": [
-              "Records are stored on your device using SwiftData. Preferences and reminders are specific to each device. System backups may retain data according to your Apple settings.",
+              "Records are stored on your device using SwiftData. Preferences, including the app language, and reminders are specific to each device. The language choice and welcome screen do not belong to a household and are not synced through CloudKit. System backups may retain data according to your Apple settings.",
               "iCloud is optional. When enabled, household documents, photos and the operation history are sent to Apple CloudKit, in private or shared databases. Technical household, iCloud account and operation identifiers are stored to synchronise data and control access. Apple’s terms and privacy policy apply. We do not promise end-to-end encryption or technically impossible developer access."
             ]
           },
@@ -201,7 +207,7 @@
             "title": "Shared households and photos",
             "paragraphs": [
               "People invited to a household can read its data, including comments, ratings and photos; people with write permission can edit it. Members recorded for calculations are different from iCloud participants. Only share information you are entitled to share and inform the people concerned.",
-              "Apple’s picker provides the images you select. The app creates a smaller JPEG copy that omits personal metadata from the source; visible content may still show people or other personal information. It does not change or delete the original in your photo library."
+              "Apple’s picker provides the images you select. For products and equipment, the app corrects orientation and creates a smaller JPEG copy that omits personal metadata from the source; visible content may still show people or other personal information. It does not change or delete the original in your photo library."
             ]
           },
           {
@@ -274,7 +280,7 @@
           {
             "title": "Is my comment or photo shared?",
             "paragraphs": [
-              "Yes, it belongs to the household and can be seen by anyone with access to the shared household. iCloud participants and members used in calculations are different concepts."
+              "Yes. Comments and product and equipment photos belong to the household and can be seen by anyone with access to the shared household. iCloud participants and members used in calculations are different concepts."
             ]
           },
           {
@@ -287,6 +293,12 @@
             "title": "How do I turn reminders off?",
             "paragraphs": [
               "In Settings → Notifications you can disable reminders or their categories. If iOS denied permission, change permission in system settings. Lock screen previews are also controlled in iOS."
+            ]
+          },
+          {
+            "title": "How do I change the language?",
+            "paragraphs": [
+              "In Settings → Language you can choose Automatic (system language), Español or English. The welcome screen lets you choose before creating your first household. The preference is saved only on this device; names and text you have entered are not translated."
             ]
           }
         ]
