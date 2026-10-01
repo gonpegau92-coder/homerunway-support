@@ -1,0 +1,36 @@
+# Prepared locally only. No deployment on push or pull_request.
+# Enable Pages and run this manually only after the owner's publication approval.
+name: Publish approved information website
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Refuse unconfirmed drafts and generate the public directory
+        run: python3 build.py --release
+      - name: Check links and public-file boundaries
+        run: python3 check.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy approved artifact
+        id: deployment
+        uses: actions/deploy-pages@v4

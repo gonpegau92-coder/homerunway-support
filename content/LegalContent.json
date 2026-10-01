@@ -1,0 +1,353 @@
+{
+  "revision": "2026-10-01",
+  "languages": {
+    "es": {
+      "privacy": {
+        "title": "Política de privacidad",
+        "sections": [
+          {
+            "title": "Responsable y contacto",
+            "paragraphs": [
+              "HomeRunway es una aplicación doméstica gratuita. Titular y responsable: {{holder}} · {{email}}. Esta política describe la app y su web de información."
+            ]
+          },
+          {
+            "title": "Datos y usos",
+            "paragraphs": [
+              "Los datos que introduces incluyen nombres de hogares, miembros y mascotas, sus tipos y necesidades configuradas, ubicaciones, productos, lotes, cantidades, caducidades, consumo, objetivos, equipos, mantenimiento, valoraciones, comentarios y fotos opcionales. Se usan para organizar reservas, calcular estimaciones, mostrar estadísticas y programar avisos. No necesitas una cuenta propia de HomeRunway. No añadas información médica ni otros datos sensibles; usa alias cuando sea suficiente.",
+              "La app no incorpora publicidad, seguimiento ni analítica externa. Las estadísticas se calculan a partir de los movimientos del hogar; no son telemetría enviada al titular."
+            ]
+          },
+          {
+            "title": "Dispositivo e iCloud",
+            "paragraphs": [
+              "Los registros se guardan en el dispositivo mediante SwiftData. Las preferencias y avisos son propios de cada dispositivo. Las copias de seguridad del sistema pueden conservar datos según tu configuración de Apple.",
+              "iCloud es opcional. Al activarlo, documentos del hogar, fotos e historial de operaciones se envían a CloudKit de Apple, en bases privadas o compartidas. Se guardan identificadores técnicos del hogar, la cuenta iCloud y las operaciones para sincronizar y controlar el acceso. Se aplican las condiciones y política de privacidad de Apple. No se promete cifrado de extremo a extremo ni acceso técnicamente imposible del desarrollador."
+            ]
+          },
+          {
+            "title": "Hogares compartidos y fotos",
+            "paragraphs": [
+              "Las personas invitadas al hogar pueden consultar sus datos, incluidos comentarios, valoraciones y fotos; quienes tienen permiso de escritura pueden modificarlos. Los miembros registrados para los cálculos no son lo mismo que los participantes de iCloud. Comparte solo datos que tengas derecho a facilitar e informa a las personas afectadas.",
+              "El selector de Apple entrega las imágenes que eliges. La app crea una copia JPEG reducida que omite los metadatos personales de origen; el contenido visible puede seguir mostrando personas u otros datos personales. No modifica ni elimina la foto original de tu fototeca."
+            ]
+          },
+          {
+            "title": "Avisos y destinatarios",
+            "paragraphs": [
+              "Los avisos locales son opcionales y requieren permiso de iOS. Pueden mostrar nombres de productos o equipos en la pantalla bloqueada; puedes gestionar sus previsualizaciones en los ajustes del sistema. CloudKit usa servicios de notificaciones de Apple para actualizar la sincronización.",
+              "No hay un backend propio de HomeRunway. Apple presta los servicios de iCloud que decides usar y los participantes autorizados reciben el contenido compartido. Si exportas o envías un archivo, el destino que elijas lo recibe.",
+              "El soporte se atiende en {{email}} mediante Gmail personal de Google. El titular recibe tu dirección de correo, el contenido del mensaje y los archivos que decidas enviar. Google trata esos datos para prestar su servicio conforme a su política de privacidad. No envíes contraseñas, información sensible ni backups con datos personales."
+            ]
+          },
+          {
+            "title": "Finalidades y bases jurídicas",
+            "paragraphs": [
+              "El titular es responsable de los datos que recibe cuando contactas con soporte. Los utiliza para responder y resolver incidencias, por su interés legítimo en atender consultas voluntarias y mantener la app (art. 6.1.f RGPD), y para cumplir las obligaciones legales aplicables, incluida la atención de derechos (art. 6.1.c). Facilita solo la información necesaria.",
+              "La gestión de los hogares se realiza en tu dispositivo y, si activas iCloud, mediante servicios de Apple bajo tu cuenta. Tú decides el contenido y las personas con quienes lo compartes. La app no envía una copia del inventario al titular ni utiliza ese contenido para publicidad, seguimiento o analítica propia. Apple trata datos en sus servicios conforme a sus condiciones y política. El uso exclusivamente personal o doméstico puede quedar fuera del RGPD; otros usos requieren su propia evaluación."
+            ]
+          },
+          {
+            "title": "Conservación, exportación y eliminación",
+            "paragraphs": [
+              "Los datos permanecen mientras los conserves. Archivar productos o ubicaciones y desactivar miembros conserva registros e historial. Quitar una foto, comentario o miembro de la vista actual no purga necesariamente las versiones anteriores del diario local, documentos de sincronización o copias.",
+              "Puedes exportar una copia JSON desde Backup y restauración. El archivo no está cifrado y puede incluir fotos, datos de personas e historial. Una vez exportado queda bajo tu custodia: guárdalo en un lugar seguro, limita con quién lo compartes y elimina las copias que ya no necesites. Borrar datos en la app no borra ese archivo ni los que hayas enviado a otras personas. Las recuperaciones de cambios pendientes son copias independientes.",
+              "Eliminar un hogar solo local elimina sus registros locales. Para eliminar un hogar propio de iCloud o salir de uno compartido se necesita conexión y comprobar el acceso. El propietario elimina la zona cloud del hogar. Salir con la acción de eliminar/salir de Hogares elimina tu acceso y la copia local de ese dispositivo, pero no los datos del propietario. Si abandonas desde el panel de Apple o se retira el acceso, puede conservarse una copia local de recuperación. Otros dispositivos, recuperaciones, exportaciones y copias ajenas pueden mantener datos que requieren eliminación expresa. Desinstalar la app no elimina por sí solo iCloud ni los archivos exportados. No se garantiza borrado remoto inmediato.",
+              "Las consultas de soporte se conservarán durante su atención y el titular eliminará los mensajes y sus propias copias, como máximo, {{retention}} meses después de su cierre. Podrán eliminarse antes cuando dejen de ser necesarias o proceda atender una solicitud de supresión. Este plazo no autoriza a conservar información innecesaria. La eliminación del buzón no garantiza la desaparición inmediata de todas las copias técnicas de Google, que aplica sus propios procesos de conservación y borrado."
+            ]
+          },
+          {
+            "title": "Tus derechos",
+            "paragraphs": [
+              "Para datos que el titular trate, puedes solicitar acceso, rectificación, supresión, limitación, oposición y portabilidad cuando proceda, o retirar el consentimiento si un tratamiento se basa en él, escribiendo a {{email}}. Se responderá en el plazo aplicable del RGPD (en general, un mes, con las ampliaciones legales). Puedes reclamar ante la AEPD: www.aepd.es.",
+              "Gestiona los registros locales desde la app y los servicios de Apple desde tu cuenta. Una solicitud al titular no permite borrar copias de otros participantes ni archivos que no estén bajo su control. No envíes contraseñas ni documentos de identidad sin que sean necesarios para una solicitud concreta."
+            ]
+          },
+          {
+            "title": "Web informativa",
+            "paragraphs": [
+              "La miniweb no añade cookies, analítica, publicidad, formularios ni recursos de seguimiento. Al publicarse en GitHub Pages, GitHub registra la dirección IP de los visitantes para seguridad y presta el alojamiento bajo su política de privacidad. Abrir la web hace una conexión a ese proveedor; la app permite leer estos textos sin conexión.",
+              "GitHub declara tratamiento en varios países, incluidos Estados Unidos, y mecanismos para transferencias internacionales en su política de privacidad. Apple describe sus servicios y transferencias en su política. Google también puede tratar los mensajes de soporte fuera del Espacio Económico Europeo, incluidos Estados Unidos; según su información publicada, utiliza decisiones de adecuación y cláusulas contractuales tipo cuando corresponda. Consulta su política de privacidad y sus marcos de transferencia para conocer el alcance de esas garantías."
+            ]
+          }
+        ]
+      },
+      "support": {
+        "title": "Soporte",
+        "sections": [
+          {
+            "title": "Contacto",
+            "paragraphs": [
+              "Escribe a {{email}}. Indica la versión y build (Ajustes), dispositivo, versión de iOS/iPadOS, pasos para reproducir el problema y qué esperabas. Indica si el hogar es local, de iCloud o compartido; usa nombres ficticios. No se promete un plazo de respuesta."
+            ]
+          },
+          {
+            "title": "Reportar un error con seguridad",
+            "paragraphs": [
+              "No envíes contraseñas, códigos de Apple, enlaces de invitación, certificados ni backups con datos personales. Recorta o anonimiza las capturas. Los backups JSON no están cifrados e incluyen contenido del hogar; para reproducir un error, crea un hogar de prueba con datos ficticios."
+            ]
+          },
+          {
+            "title": "¿Funciona sin conexión?",
+            "paragraphs": [
+              "La gestión local funciona sin conexión. Sincronizar, aceptar invitaciones y eliminar o abandonar hogares de iCloud requiere conexión. Los cambios pendientes pueden esperar a recuperar acceso; consulta el estado de iCloud antes de borrar o restaurar."
+            ]
+          },
+          {
+            "title": "¿Por qué difieren las estimaciones?",
+            "paragraphs": [
+              "Dependen de cantidades, unidades, consumo y necesidades configuradas. Los datos incompletos pueden producir cobertura parcial o sin estimación. La energía se muestra como capacidad en Wh; no representa días de autonomía."
+            ]
+          },
+          {
+            "title": "¿Se comparte mi comentario o foto?",
+            "paragraphs": [
+              "Sí, pertenece al hogar y puede verlo quien tenga acceso al hogar compartido. Los participantes de iCloud y los miembros usados en cálculos son conceptos distintos."
+            ]
+          },
+          {
+            "title": "¿Cómo exporto o borro datos?",
+            "paragraphs": [
+              "Usa Backup y restauración para exportar. Archivar o desactivar conserva datos; eliminar una anotación actual puede conservar versiones anteriores. Eliminar un hogar propio de iCloud requiere conexión; salir de un compartido no borra el hogar del propietario. Revisa también tus exportaciones y copias."
+            ]
+          },
+          {
+            "title": "¿Cómo desactivo los avisos?",
+            "paragraphs": [
+              "En Ajustes → Notificaciones puedes desactivar los avisos o sus categorías. Si iOS denegó el permiso, cambia el permiso en los ajustes del sistema. Las previsualizaciones de la pantalla bloqueada también se controlan en iOS."
+            ]
+          }
+        ]
+      },
+      "estimates": {
+        "title": "Aviso sobre estimaciones",
+        "sections": [
+          {
+            "title": "Un apoyo para organizarte",
+            "paragraphs": [
+              "La autonomía y los cálculos de agua, comida, mascotas, energía, consumo y reposición son orientativos. Dependen de los datos introducidos, las unidades, las necesidades configuradas y el historial disponible. Una cifra no garantiza que las reservas sean suficientes, seguras o adecuadas."
+            ]
+          },
+          {
+            "title": "Datos y límites",
+            "paragraphs": [
+              "Revisa cantidades, caducidades y estado real de los productos y equipos. Las estadísticas solo reflejan movimientos registrados. Datos ausentes pueden dar estimaciones parciales o impedir el cálculo. Wh expresa capacidad energética registrada, no días ni rendimiento garantizado."
+            ]
+          },
+          {
+            "title": "Decisiones de seguridad",
+            "paragraphs": [
+              "HomeRunway no sustituye recomendaciones oficiales de protección civil, seguridad alimentaria ni asesoramiento sanitario, nutricional, veterinario o técnico. En una emergencia, sigue las indicaciones de las autoridades y profesionales competentes. No consumas productos caducados o inseguros por una estimación de la app."
+            ]
+          }
+        ]
+      },
+      "licenses": {
+        "title": "Legal y licencias",
+        "sections": [
+          {
+            "title": "Titular y copyright",
+            "paragraphs": [
+              "Titular y responsable: {{holder}}. Contacto: {{email}}. Residencia: España. © {{year}} {{holder}}. Todos los derechos reservados. Los derechos de terceros y de los contenidos que aportas corresponden a sus titulares."
+            ]
+          },
+          {
+            "title": "Condiciones de uso",
+            "paragraphs": [
+              "Se mantiene el EULA estándar de Apple para la app distribuida por App Store. No limita los derechos imperativos que te correspondan. La política de privacidad y el aviso sobre estimaciones complementan la información sobre el funcionamiento de HomeRunway."
+            ]
+          },
+          {
+            "title": "Componentes y recursos",
+            "paragraphs": [
+              "La app usa frameworks del sistema Apple, SF Symbols en su interfaz y tipografía del sistema; no integra paquetes de código de terceros. No se ha identificado una licencia de software de terceros que requiera incluir su texto. Apple, iCloud y sus marcas pertenecen a Apple Inc.",
+              "El icono se generó específicamente para HomeRunway mediante ChatGPT/OpenAI a partir de instrucciones del titular. Las ilustraciones editoriales también se generaron con herramientas de IA. No se garantiza la exclusividad de estos recursos ni la ausencia de derechos de terceros. La web utiliza tipografías del sistema, sin descargar fuentes ni exportar SF Symbols."
+            ]
+          },
+          {
+            "title": "Web",
+            "paragraphs": [
+              "La web es informativa, sin ventas ni servicios de pago. Su alojamiento se realiza mediante GitHub Pages. El contacto de soporte es {{email}}."
+            ]
+          }
+        ]
+      }
+    },
+    "en": {
+      "privacy": {
+        "title": "Privacy policy",
+        "sections": [
+          {
+            "title": "Controller and contact",
+            "paragraphs": [
+              "HomeRunway is a free household app. Owner and controller: {{holder}} · {{email}}. This policy covers the app and its information website."
+            ]
+          },
+          {
+            "title": "Data and purposes",
+            "paragraphs": [
+              "The information you enter includes household, member and pet names, their types and configured needs, locations, products, batches, quantities, expiry dates, consumption, targets, equipment, maintenance, ratings, comments and optional photos. It is used to organise supplies, calculate estimates, show statistics and schedule reminders. You do not need a separate HomeRunway account. Do not add medical or other sensitive information; use aliases where sufficient.",
+              "The app includes no advertising, tracking or external analytics. Statistics are calculated from household movements; they are not telemetry sent to the owner."
+            ]
+          },
+          {
+            "title": "Device and iCloud",
+            "paragraphs": [
+              "Records are stored on your device using SwiftData. Preferences and reminders are specific to each device. System backups may retain data according to your Apple settings.",
+              "iCloud is optional. When enabled, household documents, photos and the operation history are sent to Apple CloudKit, in private or shared databases. Technical household, iCloud account and operation identifiers are stored to synchronise data and control access. Apple’s terms and privacy policy apply. We do not promise end-to-end encryption or technically impossible developer access."
+            ]
+          },
+          {
+            "title": "Shared households and photos",
+            "paragraphs": [
+              "People invited to a household can read its data, including comments, ratings and photos; people with write permission can edit it. Members recorded for calculations are different from iCloud participants. Only share information you are entitled to share and inform the people concerned.",
+              "Apple’s picker provides the images you select. The app creates a smaller JPEG copy that omits personal metadata from the source; visible content may still show people or other personal information. It does not change or delete the original in your photo library."
+            ]
+          },
+          {
+            "title": "Reminders and recipients",
+            "paragraphs": [
+              "Local reminders are optional and require iOS permission. Product or equipment names may appear on your lock screen; you can manage previews in system settings. CloudKit uses Apple notification services to update synchronisation.",
+              "HomeRunway has no backend of its own. Apple provides the iCloud services you choose to use, and authorised participants receive shared content. If you export or send a file, your chosen destination receives it.",
+              "Support is handled at {{email}} using Google’s personal Gmail service. The owner receives your email address, message content and any files you choose to send. Google processes this information to provide its service under its privacy policy. Do not send passwords, sensitive information or backups containing personal data."
+            ]
+          },
+          {
+            "title": "Purposes and legal bases",
+            "paragraphs": [
+              "The owner is responsible for the data received when you contact support. It is used to reply and resolve issues, based on the legitimate interest in handling voluntary enquiries and maintaining the app (GDPR Article 6(1)(f)), and to comply with applicable legal obligations, including rights requests (Article 6(1)(c)). Provide only the information needed.",
+              "Household management takes place on your device and, if you enable iCloud, through Apple services under your account. You decide the content and the people you share it with. The app does not send a copy of the inventory to the owner or use that content for advertising, tracking or its own analytics. Apple processes data in its services under its terms and privacy policy. Purely personal or household use may fall outside the GDPR; other uses require their own assessment."
+            ]
+          },
+          {
+            "title": "Retention, export and deletion",
+            "paragraphs": [
+              "Data remains while you keep it. Archiving products or locations and deactivating members preserves records and history. Removing a photo, comment or member from the current view does not necessarily purge previous versions from the local journal, synchronisation documents or copies.",
+              "You can export a JSON copy from Backup and restore. The file is not encrypted and may include photos, information about people and history. Once exported it is in your custody: store it securely, limit sharing and remove copies you no longer need. Deleting data in the app does not delete that file or copies you have sent to others. Recoveries of pending changes are independent copies.",
+              "Deleting a local-only household removes its local records. Deleting your own iCloud household or leaving a shared one requires a connection and an access check. The owner deletes the household’s cloud zone. Using the delete/leave action in Households removes your access and the local copy on that device, but not the owner’s data. Leaving through Apple’s panel or losing access may retain a local recovery copy. Other devices, recoveries, exports and copies held by others may retain data requiring explicit deletion. Uninstalling the app does not itself remove iCloud data or exported files. Immediate remote erasure is not guaranteed.",
+              "Support enquiries are kept while they are being handled, and the owner deletes the messages and their own copies no later than {{retention}} months after closure. They may be deleted earlier when no longer needed or where an erasure request should be granted. This period does not justify retaining unnecessary information. Deletion from the mailbox does not guarantee the immediate disappearance of all Google technical copies; Google applies its own retention and deletion processes."
+            ]
+          },
+          {
+            "title": "Your rights",
+            "paragraphs": [
+              "For data processed by the owner, you can request access, rectification, erasure, restriction, objection and portability where applicable, or withdraw consent where processing relies on it, by writing to {{email}}. Requests will be answered within the applicable GDPR deadline (generally one month, subject to lawful extensions). You can complain to the Spanish Data Protection Agency (AEPD): www.aepd.es.",
+              "Manage local records in the app and Apple services through your account. A request to the owner cannot erase other participants’ copies or files outside the owner’s control. Do not send passwords or identity documents unless necessary for a specific request."
+            ]
+          },
+          {
+            "title": "Information website",
+            "paragraphs": [
+              "The mini website adds no cookies, analytics, ads, forms or tracking resources. When published on GitHub Pages, GitHub records visitors’ IP addresses for security and provides hosting under its privacy statement. Opening the site connects to that provider; these texts can also be read offline in the app.",
+              "GitHub describes processing in several countries, including the United States, and international transfer mechanisms in its privacy statement. Apple describes its services and transfers in its privacy policy. Google may also process support messages outside the European Economic Area, including in the United States; according to its published information, it uses adequacy decisions and standard contractual clauses where applicable. See its privacy policy and transfer frameworks for the scope of those safeguards."
+            ]
+          }
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "sections": [
+          {
+            "title": "Contact",
+            "paragraphs": [
+              "Write to {{email}}. Include the version and build (Settings), device, iOS/iPadOS version, steps to reproduce the issue and what you expected. Say whether the household is local, iCloud or shared; use fictional names. No response time is promised."
+            ]
+          },
+          {
+            "title": "Report a bug safely",
+            "paragraphs": [
+              "Do not send passwords, Apple codes, invitation links, certificates or backups containing personal information. Crop or anonymise screenshots. JSON backups are not encrypted and include household content; create a test household with fictional data to reproduce an issue."
+            ]
+          },
+          {
+            "title": "Does it work offline?",
+            "paragraphs": [
+              "Local management works offline. Synchronising, accepting invitations and deleting or leaving iCloud households requires a connection. Pending changes may wait until access returns; check iCloud status before deleting or restoring."
+            ]
+          },
+          {
+            "title": "Why do estimates differ?",
+            "paragraphs": [
+              "They depend on quantities, units, consumption and configured needs. Incomplete data may produce partial coverage or no estimate. Energy is shown as capacity in Wh; it does not represent days of autonomy."
+            ]
+          },
+          {
+            "title": "Is my comment or photo shared?",
+            "paragraphs": [
+              "Yes, it belongs to the household and can be seen by anyone with access to the shared household. iCloud participants and members used in calculations are different concepts."
+            ]
+          },
+          {
+            "title": "How do I export or delete data?",
+            "paragraphs": [
+              "Use Backup and restore to export. Archiving or deactivating preserves data; removing a current annotation may retain previous versions. Deleting your own iCloud household requires a connection; leaving a shared one does not delete the owner’s household. Also review your exports and copies."
+            ]
+          },
+          {
+            "title": "How do I turn reminders off?",
+            "paragraphs": [
+              "In Settings → Notifications you can disable reminders or their categories. If iOS denied permission, change permission in system settings. Lock screen previews are also controlled in iOS."
+            ]
+          }
+        ]
+      },
+      "estimates": {
+        "title": "Estimates notice",
+        "sections": [
+          {
+            "title": "A tool to help you organise",
+            "paragraphs": [
+              "Autonomy and calculations for water, food, pets, energy, consumption and restocking are indicative. They depend on your entries, units, configured needs and available history. A figure does not guarantee that supplies are sufficient, safe or suitable."
+            ]
+          },
+          {
+            "title": "Data and limitations",
+            "paragraphs": [
+              "Check quantities, expiry dates and the actual condition of products and equipment. Statistics reflect recorded movements only. Missing information can make estimates partial or prevent calculation. Wh expresses recorded energy capacity, not days or guaranteed performance."
+            ]
+          },
+          {
+            "title": "Safety decisions",
+            "paragraphs": [
+              "HomeRunway does not replace official civil protection or food safety guidance, or medical, nutritional, veterinary or technical advice. In an emergency, follow the competent authorities and professionals. Do not consume expired or unsafe products based on an app estimate."
+            ]
+          }
+        ]
+      },
+      "licenses": {
+        "title": "Legal and licences",
+        "sections": [
+          {
+            "title": "Owner and copyright",
+            "paragraphs": [
+              "Owner and controller: {{holder}}. Contact: {{email}}. Residence: Spain. © {{year}} {{holder}}. All rights reserved. Third-party rights and user-provided content belong to their respective owners."
+            ]
+          },
+          {
+            "title": "Terms of use",
+            "paragraphs": [
+              "The standard Apple EULA applies to the App Store app. It does not restrict your mandatory legal rights. The privacy policy and estimates notice provide additional information about how HomeRunway works."
+            ]
+          },
+          {
+            "title": "Components and assets",
+            "paragraphs": [
+              "The app uses Apple system frameworks, SF Symbols in its interface and system typography; it includes no third-party code packages. No third-party software licence requiring reproduction of its text has been identified. Apple, iCloud and their trademarks belong to Apple Inc.",
+              "The icon was generated specifically for HomeRunway using ChatGPT/OpenAI, following the owner’s instructions. Editorial illustrations were also generated with AI tools. Exclusivity and the absence of third-party rights are not guaranteed for these assets. The website uses system fonts without downloading fonts or exporting SF Symbols."
+            ]
+          },
+          {
+            "title": "Website",
+            "paragraphs": [
+              "The website is informational, with no sales or paid services. It is hosted using GitHub Pages. The support contact is {{email}}."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "copyrightNotices": {
+    "es": "© {{year}} {{holder}}. Todos los derechos reservados.",
+    "en": "© {{year}} {{holder}}. All rights reserved."
+  }
+}
