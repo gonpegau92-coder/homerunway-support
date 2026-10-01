@@ -1,11 +1,11 @@
 {
-  "status": "readyForPublication",
+  "status": "published",
   "holder": "Gonzalo Peralta Gaudes",
   "supportEmail": "inventsweneed@gmail.com",
   "supportProvider": "Google Gmail",
   "supportRetentionMonths": 12,
-  "privacyURL": null,
-  "supportURL": null,
+  "privacyURL": "https://gonpegau92-coder.github.io/homerunway-support/es/privacy.html",
+  "supportURL": "https://gonpegau92-coder.github.io/homerunway-support/es/support.html",
   "copyrightYear": 2026,
   "rightsConfirmed": true,
   "publicationApproved": true
